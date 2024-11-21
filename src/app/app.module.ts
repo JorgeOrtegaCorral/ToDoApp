@@ -7,13 +7,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { LayoutConHeaderComponent } from './layout-con-header/layout-con-header.component';
+import { LayoutSinHeaderComponent } from './layout-sin-header/layout-sin-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    LayoutConHeaderComponent,
+    LayoutSinHeaderComponent
   ],
   imports: [
     BrowserModule,
